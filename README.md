@@ -1,5 +1,7 @@
 # Ex. No: 6 Identifying MAC and IP Addresses Using Packet Tracer
-# Date:
+## Date: 20/09/25
+## Name: Srimeghanathan S
+## RegNo: 212224230273
 ________________________________________
 # Objective
 To use Cisco Packet Tracer simulation mode to capture and analyze MAC and IP address information for both local and remote network communication.
@@ -48,10 +50,37 @@ Switch1	000C:85CC:1DA7	00D0:D311:C788	N/A	N/A<br>
 172.16.31.2	00D0:D311:C788	000C:85CC:1DA7	172.16.31.2	172.16.31.5<br>
 ________________________________________
 # Output (Screenshots)
-•	PDU details for local communication<br>
-•	PDU details for remote communication<br>
-•	Tables showing MAC/IP changes through each device<br>
+#### •	PDU details for local communication(Pinging from 172.16.31.5 to 172.16.31.2)<br>
+
+##### At 172.16.31.5
+
+<img width="630" height="609" alt="Screenshot 2025-09-13 141429" src="https://github.com/user-attachments/assets/e6c43d50-0f33-4de1-8f60-ae1823624c60" />
+<br>
+
+##### At 172.16.31.2
+
+<img width="630" height="625" alt="Screenshot 2025-09-13 141516" src="https://github.com/user-attachments/assets/35fd84ad-f3f8-474c-882e-5181c59f495d" />
+<br>
+
+#### •	PDU details for remote communication(Pinging from 172.16.31.5 to 10.10.10.2)<br>
+
+##### At 172.16.31.5
+<img width="630" height="608" alt="image" src="https://github.com/user-attachments/assets/da7f7289-ee4f-422d-9efb-988b4dfc0daa" />
+
+<br>
+
+##### At 10.10.10.2
+<img width="630" height="608" alt="image" src="https://github.com/user-attachments/assets/0c380fbd-dc53-4185-93b1-073988454bd7" />
+
+#### •	Tables showing MAC/IP changes through each device<br>
+
+##### Local Communication(From 172.16.31.5 to 172.16.31.2)
+<img width="622" height="137" alt="image" src="https://github.com/user-attachments/assets/5e4c28b1-085d-459c-8bbc-f28ff7f63d16" />
+
+##### Remote Communication(From 172.16.31.5 to 10.10.10.2)
+<img width="616" height="187" alt="image" src="https://github.com/user-attachments/assets/6d59484e-2360-4cb5-bd80-2cb70851bd11" />
+
+
 ________________________________________
 # Result
 Successfully captured and analyzed MAC and IP addresses for both local and remote communications. Verified that MAC addresses change at each hop while IP addresses remain constant from source to destination.
-
